@@ -1,0 +1,24 @@
+Rohan Sharma
+Email: rohan.sharma@example.com | Phone: +91 9876543210
+GitHub: https://github.com/rohan-sharma-data | LinkedIn: https://linkedin.com/in/rohansharma-analytics
+Education:
+Bachelor of Technology in Computer Science
+Delhi Technological University (DTU), 2026
+
+Professional Summary:
+Analytical and result-driven aspiring Data Analyst with strong foundations in SQL data querying, Excel spreadsheet modeling, Python, Pandas, and interactive Power BI data visualizations. Eager to solve business intelligence challenges and translate complex data patterns into actionable commercial growth insights.
+
+Technical Skills:
+- Programming & Data: Python, SQL, Pandas, NumPy, Statistics
+- Business Intelligence: Power BI, Excel, Data Visualization, Tableau
+- Soft Skills: Communication, Problem Solving, Teamwork, Presentation
+
+Key Projects:
+- E-Commerce Sales Performance & Customer Lifetime Value (CLV) Dashboard: Built SQL aggregation queries and automated Excel KPI reports analyzing 150,000+ customer records.
+- COVID-19 Global Trends Exploratory Data Analysis: Processed epidemiological datasets using Pandas and NumPy, producing visual statistical summaries with Matplotlib.
+- Retail Store Inventory Optimization Model: Formulated SQL window functions to forecast stock depletion and reduce overstocking risks by 18%.
+
+Certifications:
+- Google Data Analytics Professional Certificate
+- Advanced SQL for Data Scientists (Coursera)
+- Microsoft Power BI Data Analyst Associate (PL-300)

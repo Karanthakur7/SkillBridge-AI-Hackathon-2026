@@ -1,0 +1,26 @@
+Aman Verma
+Email: aman.verma@example.com | Phone: +91 9988776655
+GitHub: https://github.com/amanverma-dev | LinkedIn: https://linkedin.com/in/aman-verma-web
+Education:
+Bachelor of Engineering in Information Technology
+Netaji Subhas University of Technology (NSUT), 2026
+
+Professional Summary:
+Versatile Full Stack Developer with extensive expertise in building high-performance web applications using React, JavaScript, HTML, CSS, and modern API backend architectures.
+
+Technical Skills:
+- Frontend & Languages: JavaScript, React, HTML, CSS, TypeScript
+- Backend & Databases: Node.js, SQL, MongoDB, Git, GitHub
+- Soft Skills: Teamwork, Problem Solving, Time Management
+
+Key Projects:
+- SkillBridge AI Career Portal: Designed and implemented a responsive career readiness assessment portal using React, Vite, and Tailwind CSS.
+- Real-Time Collaborative Kanban Board: Built a collaborative project task board supporting drag-and-drop interactions and real-time state synchronization.
+- Microservices E-Commerce API: Structured scalable REST endpoints with Node.js and SQL database integration.
+
+Internships:
+- Frontend Engineering Intern at WebCraft Studios: Developed modular UI components and reduced initial bundle load times by 28%.
+
+Certifications:
+- Meta Front-End Developer Professional Certificate
+- Full Stack Open Certification (University of Helsinki)

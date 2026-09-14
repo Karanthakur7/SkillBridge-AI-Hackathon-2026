@@ -1,0 +1,26 @@
+Priya Patel
+Email: priya.patel@example.com | Phone: +91 9123456780
+GitHub: https://github.com/priyapatel-ai | LinkedIn: https://linkedin.com/in/priya-patel-ml
+Education:
+Bachelor of Technology in Artificial Intelligence & Data Science
+Vellore Institute of Technology (VIT), 2026
+
+Professional Summary:
+Passionate Machine Learning Engineer dedicated to designing scalable neural network architectures, computer vision pipelines, and production machine learning models using PyTorch, TensorFlow, and Scikit-Learn.
+
+Technical Skills:
+- Frameworks & AI: Python, PyTorch, TensorFlow, Scikit-Learn, Deep Learning, Machine Learning, NumPy
+- Tools & Cloud: Git, GitHub, Docker, Linux, SQL
+- Soft Skills: Problem Solving, Adaptability, Communication
+
+Key Projects:
+- Plant Disease Classification CNN: Developed a custom convolutional neural network in PyTorch achieving 94.2% validation accuracy on 50,000+ agricultural images.
+- Real-time Fraud Detection Classifier: Engineered gradient-boosted decision tree pipelines in Scikit-Learn with SHAP interpretability for transaction risk scoring.
+- Automated Image Segmentation with TensorFlow: Fine-tuned U-Net architectures for medical imaging segmentation tasks.
+
+Internships:
+- Computer Vision Research Intern at AI Innovations Lab: Assisted research scientists in benchmarking vision transformer models and reducing inference latency.
+
+Certifications:
+- Deep Learning Specialization by Andrew Ng (DeepLearning.AI)
+- TensorFlow Developer Certificate

@@ -1,0 +1,552 @@
+{
+  "skills": [
+    {
+      "name": "Python",
+      "category": "Programming Languages",
+      "type": "Technical",
+      "aliases": ["python3", "py", "python programming", "core python"],
+      "description": "High-level programming language used for data science, AI, web development, and automation."
+    },
+    {
+      "name": "Java",
+      "category": "Programming Languages",
+      "type": "Technical",
+      "aliases": ["java8", "java11", "java17", "core java", "j2ee", "spring boot", "spring"],
+      "description": "Object-oriented, class-based programming language widely used in enterprise software."
+    },
+    {
+      "name": "JavaScript",
+      "category": "Web Development",
+      "type": "Technical",
+      "aliases": ["js", "es6", "ecmascript", "javascript programming", "vanilla js"],
+      "description": "High-level programming language that powers dynamic and interactive web applications."
+    },
+    {
+      "name": "TypeScript",
+      "category": "Programming Languages",
+      "type": "Technical",
+      "aliases": ["ts", "typescript programming"],
+      "description": "Typed superset of JavaScript that compiles to plain JavaScript."
+    },
+    {
+      "name": "C++",
+      "category": "Programming Languages",
+      "type": "Technical",
+      "aliases": ["cpp", "c plus plus", "c/c++"],
+      "description": "High-performance compiled language used in systems programming, game dev, and algorithms."
+    },
+    {
+      "name": "SQL",
+      "category": "Databases",
+      "type": "Technical",
+      "aliases": ["structured query language", "mysql", "postgresql", "sqlite", "tsql", "plsql", "rdbms", "oracle sql", "postgres"],
+      "description": "Standard language for storing, querying, and manipulating relational databases."
+    },
+    {
+      "name": "HTML5",
+      "category": "Web Development",
+      "type": "Technical",
+      "aliases": ["html", "hypertext markup language", "semantic html"],
+      "description": "Standard markup language for document structure on the World Wide Web."
+    },
+    {
+      "name": "CSS3",
+      "category": "Web Development",
+      "type": "Technical",
+      "aliases": ["css", "cascading style sheets", "tailwind", "tailwind css", "bootstrap", "sass", "scss"],
+      "description": "Style sheet language used for describing the layout and design of web pages."
+    },
+    {
+      "name": "React",
+      "category": "Web Development",
+      "type": "Technical",
+      "aliases": ["reactjs", "react.js", "react native", "react hooks", "redux"],
+      "description": "Declarative, component-based frontend library for building modern user interfaces."
+    },
+    {
+      "name": "Node.js",
+      "category": "Web Development",
+      "type": "Technical",
+      "aliases": ["nodejs", "node", "express", "expressjs", "express.js"],
+      "description": "JavaScript runtime environment that executes JavaScript code outside a web browser."
+    },
+    {
+      "name": "FastAPI",
+      "category": "Web Development",
+      "type": "Technical",
+      "aliases": ["fast api", "uvicorn", "starlette", "restful api"],
+      "description": "High-performance Python web framework for building modern REST APIs."
+    },
+    {
+      "name": "Django",
+      "category": "Web Development",
+      "type": "Technical",
+      "aliases": ["django framework", "drf", "django rest framework"],
+      "description": "High-level Python web framework that encourages rapid development and clean design."
+    },
+    {
+      "name": "Git",
+      "category": "DevOps & Tools",
+      "type": "Technical",
+      "aliases": ["git version control", "git cli", "version control"],
+      "description": "Distributed version control system to track changes in source code during development."
+    },
+    {
+      "name": "GitHub",
+      "category": "DevOps & Tools",
+      "type": "Technical",
+      "aliases": ["github actions", "github workflow", "gitlab", "bitbucket"],
+      "description": "Cloud-based hosting service for Git repositories and CI/CD automation."
+    },
+    {
+      "name": "Docker",
+      "category": "DevOps & Cloud",
+      "type": "Technical",
+      "aliases": ["containerization", "containers", "docker-compose", "dockerfile"],
+      "description": "Platform to package, ship, and run distributed applications in isolated containers."
+    },
+    {
+      "name": "Kubernetes",
+      "category": "DevOps & Cloud",
+      "type": "Technical",
+      "aliases": ["k8s", "container orchestration", "helm"],
+      "description": "Open-source system for automating deployment, scaling, and management of containerized apps."
+    },
+    {
+      "name": "AWS",
+      "category": "Cloud Computing",
+      "type": "Technical",
+      "aliases": ["amazon web services", "ec2", "s3", "lambda", "aws cloud", "cloudwatch", "rds"],
+      "description": "Comprehensive, evolving cloud computing platform provided by Amazon."
+    },
+    {
+      "name": "Azure",
+      "category": "Cloud Computing",
+      "type": "Technical",
+      "aliases": ["microsoft azure", "azure cloud", "azure devops", "azure blob"],
+      "description": "Cloud computing service created by Microsoft for building, testing, and deploying apps."
+    },
+    {
+      "name": "Power BI",
+      "category": "Business Intelligence",
+      "type": "Technical",
+      "aliases": ["powerbi", "microsoft power bi", "dax", "power query", "power bi desktop"],
+      "description": "Interactive data visualization and business analytics tool by Microsoft."
+    },
+    {
+      "name": "Tableau",
+      "category": "Business Intelligence",
+      "type": "Technical",
+      "aliases": ["tableau desktop", "tableau server", "tableau public"],
+      "description": "Visual analytics platform transforming the way we use data to solve problems."
+    },
+    {
+      "name": "Excel",
+      "category": "Office & Data Management",
+      "type": "Non-Technical",
+      "aliases": [
+        "ms excel",
+        "microsoft excel",
+        "spreadsheets",
+        "spreadsheet",
+        "excel spreadsheet",
+        "vlookup",
+        "xlookup",
+        "pivot tables",
+        "pivot table",
+        "excel formulas",
+        "advanced excel",
+        "google sheets",
+        "sheets"
+      ],
+      "description": "Spreadsheet program featuring calculation, graphing tools, pivot tables, and data modeling."
+    },
+    {
+      "name": "Pandas",
+      "category": "Data Science & Analytics",
+      "type": "Technical",
+      "aliases": ["pandas library", "pd", "dataframes"],
+      "description": "Fast, powerful, and flexible open source data analysis and manipulation library for Python."
+    },
+    {
+      "name": "NumPy",
+      "category": "Data Science & Analytics",
+      "type": "Technical",
+      "aliases": ["numpy array", "np", "numerical python"],
+      "description": "Fundamental package for scientific computing with Python containing N-dimensional array objects."
+    },
+    {
+      "name": "Matplotlib",
+      "category": "Data Science & Analytics",
+      "type": "Technical",
+      "aliases": ["plt", "seaborn", "data plotting"],
+      "description": "Comprehensive library for creating static, animated, and interactive visualizations in Python."
+    },
+    {
+      "name": "Statistics",
+      "category": "Mathematics & Theory",
+      "type": "Technical",
+      "aliases": ["statistical modeling", "hypothesis testing", "probability", "inferential statistics", "statistical analysis"],
+      "description": "Discipline that concerns the collection, organization, analysis, and presentation of data."
+    },
+    {
+      "name": "Machine Learning",
+      "category": "AI & Machine Learning",
+      "type": "Technical",
+      "aliases": ["ml", "machine-learning", "supervised learning", "unsupervised learning", "ml algorithms"],
+      "description": "Study of computer algorithms that improve automatically through experience and data."
+    },
+    {
+      "name": "Deep Learning",
+      "category": "AI & Machine Learning",
+      "type": "Technical",
+      "aliases": ["dl", "neural networks", "ann", "cnn", "rnn", "transformers", "deep neural networks"],
+      "description": "Subset of machine learning based on artificial neural networks with representation learning."
+    },
+    {
+      "name": "TensorFlow",
+      "category": "AI & Machine Learning",
+      "type": "Technical",
+      "aliases": ["tf", "tensorflow2", "keras"],
+      "description": "End-to-end open source machine learning platform created by Google."
+    },
+    {
+      "name": "PyTorch",
+      "category": "AI & Machine Learning",
+      "type": "Technical",
+      "aliases": ["torch", "pytorch framework", "torchvision"],
+      "description": "Optimized tensor library for deep learning using GPUs and CPUs developed by Meta AI."
+    },
+    {
+      "name": "Scikit-Learn",
+      "category": "AI & Machine Learning",
+      "type": "Technical",
+      "aliases": ["sklearn", "scikit learn"],
+      "description": "Machine learning library for Python featuring classification, regression, and clustering algorithms."
+    },
+    {
+      "name": "NLP",
+      "category": "AI & Machine Learning",
+      "type": "Technical",
+      "aliases": ["natural language processing", "spacy", "nltk", "huggingface", "llm", "transformers", "bert", "gpt"],
+      "description": "Subfield of computer science and AI concerned with interactions between computers and human language."
+    },
+    {
+      "name": "Computer Vision",
+      "category": "AI & Machine Learning",
+      "type": "Technical",
+      "aliases": ["cv", "opencv", "image processing", "object detection", "yolo", "segmentation"],
+      "description": "Field of AI that enables computers to derive meaningful information from digital images and videos."
+    },
+    {
+      "name": "Data Analysis",
+      "category": "Data Science & Analytics",
+      "type": "Technical",
+      "aliases": ["exploratory data analysis", "eda", "data wrangling", "data cleansing"],
+      "description": "Process of inspecting, cleansing, transforming, and modeling data with the goal of discovering useful information."
+    },
+    {
+      "name": "Data Visualization",
+      "category": "Data Science & Analytics",
+      "type": "Technical",
+      "aliases": ["data visualisations", "plotly", "d3.js", "dashboards", "bi reports"],
+      "description": "Visual representation of data and statistical figures to communicate complex relationships clearly."
+    },
+    {
+      "name": "PostgreSQL",
+      "category": "Databases",
+      "type": "Technical",
+      "aliases": ["postgres", "pgsql", "relational database"],
+      "description": "Powerful, open source object-relational database system with strong reliability and performance."
+    },
+    {
+      "name": "MongoDB",
+      "category": "Databases",
+      "type": "Technical",
+      "aliases": ["nosql", "document database", "mongoose", "mongo"],
+      "description": "Source-available cross-platform document-oriented database program for JSON-like documents."
+    },
+    {
+      "name": "REST APIs",
+      "category": "Web Development",
+      "type": "Technical",
+      "aliases": ["rest api", "restful", "api development", "web services", "json api"],
+      "description": "Architectural style for networked hypermedia applications providing stateless interoperability."
+    },
+    {
+      "name": "Linux",
+      "category": "DevOps & Tools",
+      "type": "Technical",
+      "aliases": ["bash", "shell scripting", "ubuntu", "unix", "linux cli"],
+      "description": "Family of open-source Unix-like operating systems based on the Linux kernel."
+    },
+    {
+      "name": "CI/CD",
+      "category": "DevOps & Cloud",
+      "type": "Technical",
+      "aliases": ["continuous integration", "continuous deployment", "jenkins", "pipelines", "devops pipeline"],
+      "description": "Method to frequently deliver apps to customers by introducing automation into development stages."
+    },
+    {
+      "name": "Communication",
+      "category": "Soft Skills",
+      "type": "Non-Technical",
+      "aliases": [
+        "verbal communication",
+        "written communication",
+        "interpersonal skills",
+        "client communication",
+        "active listening",
+        "business communication",
+        "email etiquette",
+        "effective communication",
+        "communicating"
+      ],
+      "description": "Ability to convey ideas effectively and clearly across teams and stakeholders."
+    },
+    {
+      "name": "Customer Handling",
+      "category": "Customer Relations",
+      "type": "Non-Technical",
+      "aliases": [
+        "customer service",
+        "customer support",
+        "customer relationship",
+        "customer relations",
+        "client management",
+        "client satisfaction",
+        "helpdesk",
+        "client handling",
+        "client servicing",
+        "customer experience",
+        "cx",
+        "customer success",
+        "client relations"
+      ],
+      "description": "Managing customer inquiries, conflict resolution, and support interactions with high empathy."
+    },
+    {
+      "name": "Teamwork",
+      "category": "Soft Skills",
+      "type": "Non-Technical",
+      "aliases": [
+        "collaboration",
+        "cross-functional collaboration",
+        "team player",
+        "team coordination",
+        "team collaboration",
+        "team working"
+      ],
+      "description": "Collaborative effort of a team to achieve a common organizational goal."
+    },
+    {
+      "name": "Negotiation",
+      "category": "Sales & Business",
+      "type": "Non-Technical",
+      "aliases": [
+        "deal closing",
+        "contract negotiation",
+        "persuasion",
+        "bargaining",
+        "negotiation skills",
+        "commercial negotiation",
+        "pricing negotiation"
+      ],
+      "description": "Strategic dialogue that resolves an issue or closes contracts in a manner acceptable to all parties."
+    },
+    {
+      "name": "Sales",
+      "category": "Sales & Business",
+      "type": "Non-Technical",
+      "aliases": [
+        "sales pitching",
+        "lead generation",
+        "cold calling",
+        "b2b sales",
+        "b2c sales",
+        "pipeline management",
+        "crm",
+        "sales executive",
+        "inside sales",
+        "outbound sales",
+        "inbound sales",
+        "direct sales",
+        "prospecting",
+        "closing deals",
+        "business development"
+      ],
+      "description": "Activities involved in selling products, solutions, or services to business clients or consumers."
+    },
+    {
+      "name": "Leadership",
+      "category": "Soft Skills",
+      "type": "Non-Technical",
+      "aliases": [
+        "team leadership",
+        "mentorship",
+        "guiding teams",
+        "initiative",
+        "people leadership",
+        "leadership skills",
+        "mentoring"
+      ],
+      "description": "Ability to guide, inspire, and drive team outcomes and strategic visions."
+    },
+    {
+      "name": "Problem Solving",
+      "category": "Analytical Skills",
+      "type": "Non-Technical",
+      "aliases": [
+        "analytical thinking",
+        "critical thinking",
+        "troubleshooting",
+        "creative problem solving",
+        "problem solver",
+        "analytical problem solving",
+        "conflict resolution",
+        "decision making"
+      ],
+      "description": "Identifying complex problems and formulating structured, practical solutions."
+    },
+    {
+      "name": "Management",
+      "category": "Management",
+      "type": "Non-Technical",
+      "aliases": [
+        "project management",
+        "operations management",
+        "resource planning",
+        "team management",
+        "stakeholder management",
+        "management skills",
+        "vendor management",
+        "operational management",
+        "general management",
+        "workflow management",
+        "process management"
+      ],
+      "description": "Administration and coordination of tasks and resources to achieve business goals."
+    },
+    {
+      "name": "Marketing",
+      "category": "Marketing",
+      "type": "Non-Technical",
+      "aliases": [
+        "market research",
+        "brand management",
+        "advertising",
+        "promotions",
+        "growth marketing",
+        "marketing management",
+        "marketing strategy",
+        "brand marketing",
+        "field marketing",
+        "product marketing"
+      ],
+      "description": "Activity of promoting and selling products or services through market research and strategy."
+    },
+    {
+      "name": "Digital Marketing",
+      "category": "Marketing",
+      "type": "Non-Technical",
+      "aliases": [
+        "seo",
+        "sem",
+        "social media marketing",
+        "google ads",
+        "facebook ads",
+        "email marketing",
+        "performance marketing",
+        "digital campaigns",
+        "meta ads",
+        "social media"
+      ],
+      "description": "Promotion of brands using the internet and digital communication channels."
+    },
+    {
+      "name": "Recruitment",
+      "category": "Human Resources",
+      "type": "Non-Technical",
+      "aliases": [
+        "talent acquisition",
+        "sourcing",
+        "screening resumes",
+        "interviewing candidates",
+        "headhunting",
+        "hiring",
+        "onboarding",
+        "recruiter",
+        "talent sourcing",
+        "talent recruiter",
+        "screening",
+        "interviewing",
+        "employee relations",
+        "labor laws",
+        "ats"
+      ],
+      "description": "Identifying, attracting, screening, shortlisting, and interviewing job candidates."
+    },
+    {
+      "name": "Content Writing",
+      "category": "Marketing & Media",
+      "type": "Non-Technical",
+      "aliases": [
+        "copywriting",
+        "blog writing",
+        "technical writing",
+        "article writing",
+        "content creation",
+        "seo writing",
+        "content writer",
+        "copywriter",
+        "content strategy",
+        "creative writing",
+        "social media writing",
+        "proofreading",
+        "editing"
+      ],
+      "description": "Planning, writing, and editing engaging content for digital mediums and audiences."
+    },
+    {
+      "name": "Presentation",
+      "category": "Communication",
+      "type": "Non-Technical",
+      "aliases": [
+        "public speaking",
+        "powerpoint presentation",
+        "deck preparation",
+        "pitching",
+        "presentation skills",
+        "powerpoint",
+        "pitch deck"
+      ],
+      "description": "Communicating concepts to an audience through structured speech and visual collateral."
+    },
+    {
+      "name": "Time Management",
+      "category": "Productivity",
+      "type": "Non-Technical",
+      "aliases": [
+        "prioritization",
+        "scheduling",
+        "meeting deadlines",
+        "multitasking",
+        "task management"
+      ],
+      "description": "Process of organizing and prioritizing activities to optimize productivity and output."
+    },
+    {
+      "name": "Adaptability",
+      "category": "Soft Skills",
+      "type": "Non-Technical",
+      "aliases": [
+        "flexibility",
+        "fast learner",
+        "quick learner",
+        "resilience",
+        "change management"
+      ],
+      "description": "Capacity to rapidly adapt to evolving technologies, methodologies, and team environments."
+    }
+  ]
+}

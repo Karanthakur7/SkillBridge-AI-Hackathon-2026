@@ -1,0 +1,395 @@
+{
+  "roles": [
+    {
+      "role_name": "Data Scientist",
+      "department": "AI & Analytics",
+      "category": "Technical",
+      "description": "Extracts knowledge and insights from structured and unstructured data using predictive modeling, statistics, and machine learning.",
+      "avg_salary": "₹7 LPA – ₹18 LPA",
+      "market_demand": "Very High",
+      "industry_growth": "+28% (Very High)",
+      "core_skills": ["Python", "Machine Learning", "Statistics", "SQL", "Pandas"],
+      "secondary_skills": ["NumPy", "Scikit-Learn", "Git", "Data Visualization", "Deep Learning", "NLP"],
+      "skill_weights": {
+        "core": 1.5,
+        "important": 1.3,
+        "supporting": 1.2
+      },
+      "roadmap_reference": "data_scientist"
+    },
+    {
+      "role_name": "Data Analyst",
+      "department": "AI & Analytics",
+      "category": "Technical",
+      "description": "Transforms raw data into actionable dashboards and business insights using SQL, Excel, Python, Power BI, and statistical analysis.",
+      "avg_salary": "₹5 LPA – ₹12 LPA",
+      "market_demand": "Very High",
+      "industry_growth": "+22% (High)",
+      "core_skills": ["SQL", "Excel", "Python", "Power BI", "Data Visualization"],
+      "secondary_skills": ["Pandas", "NumPy", "Statistics", "Tableau", "Communication", "Problem Solving"],
+      "skill_weights": {
+        "core": 1.5,
+        "important": 1.3,
+        "supporting": 1.2
+      },
+      "roadmap_reference": "data_analyst"
+    },
+    {
+      "role_name": "Machine Learning Engineer",
+      "department": "AI & Analytics",
+      "category": "Technical",
+      "description": "Designs, trains, evaluates, and deploys high-scale deep learning models, neural networks, and inference APIs into production.",
+      "avg_salary": "₹8 LPA – ₹22 LPA",
+      "market_demand": "Very High",
+      "industry_growth": "+34% (Very High)",
+      "core_skills": ["Python", "Machine Learning", "PyTorch", "TensorFlow", "Scikit-Learn", "NumPy"],
+      "secondary_skills": ["Deep Learning", "Docker", "Git", "GitHub", "SQL", "Computer Vision", "NLP"],
+      "skill_weights": {
+        "core": 1.5,
+        "important": 1.3,
+        "supporting": 1.2
+      },
+      "roadmap_reference": "ml_engineer"
+    },
+    {
+      "role_name": "ML Engineer",
+      "department": "AI & Analytics",
+      "category": "Technical",
+      "description": "Bridges machine learning research and enterprise software by building end-to-end AI pipelines and scalable microservices.",
+      "avg_salary": "₹8 LPA – ₹22 LPA",
+      "market_demand": "Very High",
+      "industry_growth": "+34% (Very High)",
+      "core_skills": ["Python", "Machine Learning", "PyTorch", "TensorFlow", "Scikit-Learn"],
+      "secondary_skills": ["NumPy", "Deep Learning", "Docker", "Git", "GitHub", "NLP"],
+      "skill_weights": {
+        "core": 1.5,
+        "important": 1.3,
+        "supporting": 1.2
+      },
+      "roadmap_reference": "ml_engineer"
+    },
+    {
+      "role_name": "Full Stack Web Developer",
+      "department": "Web & Software Engineering",
+      "category": "Technical",
+      "description": "Builds end-to-end responsive web applications spanning dynamic frontends, scalable REST/GraphQL backends, and databases.",
+      "avg_salary": "₹6 LPA – ₹16 LPA",
+      "market_demand": "Very High",
+      "industry_growth": "+20% (High)",
+      "core_skills": ["JavaScript", "React", "HTML5", "CSS3", "Node.js", "Git"],
+      "secondary_skills": ["TypeScript", "GitHub", "SQL", "MongoDB", "FastAPI", "REST APIs"],
+      "skill_weights": {
+        "core": 1.5,
+        "important": 1.3,
+        "supporting": 1.2
+      },
+      "roadmap_reference": "fullstack_developer"
+    },
+    {
+      "role_name": "Python Developer",
+      "department": "Software Engineering",
+      "category": "Technical",
+      "description": "Develops high-throughput backend services, data pipelines, automation scripts, and RESTful APIs using modern Python frameworks.",
+      "avg_salary": "₹5.5 LPA – ₹14 LPA",
+      "market_demand": "High",
+      "industry_growth": "+18% (High)",
+      "core_skills": ["Python", "FastAPI", "SQL", "Git", "GitHub"],
+      "secondary_skills": ["Docker", "Linux", "CI/CD", "Django", "PostgreSQL", "REST APIs"],
+      "skill_weights": {
+        "core": 1.5,
+        "important": 1.3,
+        "supporting": 1.2
+      },
+      "roadmap_reference": "python_developer"
+    },
+    {
+      "role_name": "Backend Developer",
+      "department": "Software Engineering",
+      "category": "Technical",
+      "description": "Architects resilient server-side applications, database schemas, microservice communications, and authentication protocols.",
+      "avg_salary": "₹6 LPA – ₹18 LPA",
+      "market_demand": "Very High",
+      "industry_growth": "+25% (Very High)",
+      "core_skills": ["Node.js", "Python", "SQL", "REST APIs", "Git"],
+      "secondary_skills": ["PostgreSQL", "MongoDB", "Docker", "FastAPI", "Linux", "CI/CD"],
+      "skill_weights": {
+        "core": 1.5,
+        "important": 1.3,
+        "supporting": 1.2
+      },
+      "roadmap_reference": "backend_developer"
+    },
+    {
+      "role_name": "Frontend Developer",
+      "department": "Web Development",
+      "category": "Technical",
+      "description": "Crafts aesthetic, accessible, high-performance user interfaces and single-page web applications with modern styling frameworks.",
+      "avg_salary": "₹5 LPA – ₹14 LPA",
+      "market_demand": "High",
+      "industry_growth": "+19% (High)",
+      "core_skills": ["JavaScript", "React", "HTML5", "CSS3", "Git"],
+      "secondary_skills": ["TypeScript", "GitHub", "Data Visualization", "REST APIs"],
+      "skill_weights": {
+        "core": 1.5,
+        "important": 1.3,
+        "supporting": 1.2
+      },
+      "roadmap_reference": "frontend_developer"
+    },
+    {
+      "role_name": "DevOps & Cloud Engineer",
+      "department": "Cloud & Infrastructure",
+      "category": "Technical",
+      "description": "Automates cloud deployments, provisions infrastructure-as-code, maintains CI/CD pipelines, and manages container clusters.",
+      "avg_salary": "₹7 LPA – ₹20 LPA",
+      "market_demand": "Very High",
+      "industry_growth": "+29% (Very High)",
+      "core_skills": ["Docker", "AWS", "Linux", "Git", "CI/CD"],
+      "secondary_skills": ["Kubernetes", "Azure", "GitHub", "Python", "REST APIs"],
+      "skill_weights": {
+        "core": 1.5,
+        "important": 1.3,
+        "supporting": 1.2
+      },
+      "roadmap_reference": "devops_cloud"
+    },
+    {
+      "role_name": "Data Engineer",
+      "department": "Data Platform & Cloud",
+      "category": "Technical",
+      "description": "Constructs reliable data lakes, ETL pipelines, streaming architectures, and data warehouse infrastructure for analytics.",
+      "avg_salary": "₹7.5 LPA – ₹20 LPA",
+      "market_demand": "Very High",
+      "industry_growth": "+31% (Very High)",
+      "core_skills": ["Python", "SQL", "PostgreSQL", "Docker", "AWS"],
+      "secondary_skills": ["Pandas", "Linux", "Git", "CI/CD", "MongoDB"],
+      "skill_weights": {
+        "core": 1.5,
+        "important": 1.3,
+        "supporting": 1.2
+      },
+      "roadmap_reference": "data_engineer"
+    },
+    {
+      "role_name": "Business Analyst",
+      "department": "Business & Strategy",
+      "category": "Non-Technical",
+      "description": "Bridges business stakeholders and engineering teams by defining functional requirements, workflows, and KPI analytics.",
+      "avg_salary": "₹6 LPA – ₹15 LPA",
+      "market_demand": "High",
+      "industry_growth": "+16% (High)",
+      "core_skills": ["SQL", "Excel", "Problem Solving", "Communication", "Data Visualization"],
+      "secondary_skills": ["Power BI", "Tableau", "Management", "Presentation"],
+      "skill_weights": {
+        "core": 1.5,
+        "important": 1.3,
+        "supporting": 1.2
+      },
+      "roadmap_reference": "business_analyst"
+    },
+    {
+      "role_name": "Sales Executive",
+      "department": "Sales & Revenue",
+      "category": "Non-Technical",
+      "description": "Drives company revenue through outbound lead prospecting, consultative pitching, commercial negotiations, and deal closing.",
+      "avg_salary": "₹4 LPA – ₹12 LPA + Incentives",
+      "market_demand": "High",
+      "industry_growth": "+15% (Moderate)",
+      "core_skills": ["Sales", "Negotiation", "Communication", "Customer Handling"],
+      "secondary_skills": ["Presentation", "Time Management", "Adaptability", "Excel", "Problem Solving"],
+      "skill_weights": {
+        "core": 1.5,
+        "important": 1.3,
+        "supporting": 1.2
+      },
+      "roadmap_reference": "sales_executive"
+    },
+    {
+      "role_name": "Business Development Executive",
+      "department": "Sales & Partnerships",
+      "category": "Non-Technical",
+      "description": "Identifies strategic market opportunities, establishes corporate partnerships, and accelerates new account acquisition.",
+      "avg_salary": "₹4.5 LPA – ₹12 LPA",
+      "market_demand": "High",
+      "industry_growth": "+17% (High)",
+      "core_skills": ["Sales", "Marketing", "Negotiation", "Communication"],
+      "secondary_skills": ["Presentation", "Leadership", "Management", "Excel", "Problem Solving"],
+      "skill_weights": {
+        "core": 1.5,
+        "important": 1.3,
+        "supporting": 1.2
+      },
+      "roadmap_reference": "bde"
+    },
+    {
+      "role_name": "Customer Support Executive",
+      "department": "Customer Experience",
+      "category": "Non-Technical",
+      "description": "Provides empathetic customer assistance, resolves support escalations, and ensures high user satisfaction and retention.",
+      "avg_salary": "₹3.5 LPA – ₹7 LPA",
+      "market_demand": "Moderate",
+      "industry_growth": "+10% (Moderate)",
+      "core_skills": ["Customer Handling", "Communication", "Problem Solving", "Teamwork"],
+      "secondary_skills": ["Time Management", "Excel", "Adaptability", "Management"],
+      "skill_weights": {
+        "core": 1.5,
+        "important": 1.3,
+        "supporting": 1.2
+      },
+      "roadmap_reference": "customer_support"
+    },
+    {
+      "role_name": "HR Executive",
+      "department": "Human Resources",
+      "category": "Non-Technical",
+      "description": "Manages talent acquisition, onboarding, employee benefits administration, statutory compliance, and team culture.",
+      "avg_salary": "₹4 LPA – ₹9 LPA",
+      "market_demand": "Moderate",
+      "industry_growth": "+12% (Moderate)",
+      "core_skills": ["Recruitment", "Communication", "Management", "Excel"],
+      "secondary_skills": ["Teamwork", "Leadership", "Presentation", "Time Management", "Problem Solving", "Adaptability"],
+      "skill_weights": {
+        "core": 1.5,
+        "important": 1.3,
+        "supporting": 1.2
+      },
+      "roadmap_reference": "hr_executive"
+    },
+    {
+      "role_name": "Recruiter / Talent Acquisition",
+      "department": "Human Resources",
+      "category": "Non-Technical",
+      "description": "Sources, screens, evaluates, and closes candidates across hiring pipelines using active search and structured interviews.",
+      "avg_salary": "₹4 LPA – ₹10 LPA",
+      "market_demand": "High",
+      "industry_growth": "+14% (Moderate)",
+      "core_skills": ["Recruitment", "Communication", "Negotiation", "Time Management"],
+      "secondary_skills": ["Excel", "Presentation", "Teamwork", "Management", "Problem Solving", "Adaptability"],
+      "skill_weights": {
+        "core": 1.5,
+        "important": 1.3,
+        "supporting": 1.2
+      },
+      "roadmap_reference": "recruiter"
+    },
+    {
+      "role_name": "Digital Marketing Executive",
+      "department": "Marketing & Growth",
+      "category": "Non-Technical",
+      "description": "Executes digital acquisition strategies across SEO, SEM, paid social ads, content marketing, and conversion funnels.",
+      "avg_salary": "₹4.5 LPA – ₹11 LPA",
+      "market_demand": "High",
+      "industry_growth": "+21% (High)",
+      "core_skills": ["Digital Marketing", "Marketing", "Content Writing", "Excel"],
+      "secondary_skills": ["Communication", "Data Visualization", "Problem Solving", "Adaptability"],
+      "skill_weights": {
+        "core": 1.5,
+        "important": 1.3,
+        "supporting": 1.2
+      },
+      "roadmap_reference": "digital_marketer"
+    },
+    {
+      "role_name": "Marketing Executive",
+      "department": "Marketing & Brand",
+      "category": "Non-Technical",
+      "description": "Plans and executes brand campaigns, market research surveys, collateral design, and multi-channel promotional activations.",
+      "avg_salary": "₹4 LPA – ₹10 LPA",
+      "market_demand": "High",
+      "industry_growth": "+15% (Moderate)",
+      "core_skills": ["Marketing", "Communication", "Content Writing", "Digital Marketing"],
+      "secondary_skills": ["Presentation", "Excel", "Leadership", "Teamwork", "Problem Solving"],
+      "skill_weights": {
+        "core": 1.5,
+        "important": 1.3,
+        "supporting": 1.2
+      },
+      "roadmap_reference": "marketing_executive"
+    },
+    {
+      "role_name": "Operations Executive",
+      "department": "Operations & Logistics",
+      "category": "Non-Technical",
+      "description": "Coordinates daily operational workflows, monitors service quality metrics, and optimizes supply chain operations.",
+      "avg_salary": "₹4 LPA – ₹9 LPA",
+      "market_demand": "Moderate",
+      "industry_growth": "+11% (Moderate)",
+      "core_skills": ["Management", "Excel", "Problem Solving", "Time Management"],
+      "secondary_skills": ["Communication", "Teamwork", "Leadership", "Negotiation", "Adaptability"],
+      "skill_weights": {
+        "core": 1.5,
+        "important": 1.3,
+        "supporting": 1.2
+      },
+      "roadmap_reference": "operations_executive"
+    },
+    {
+      "role_name": "MIS Executive",
+      "department": "Operations & Reporting",
+      "category": "Non-Technical",
+      "description": "Maintains corporate database queries, validates operational data, and automates executive spreadsheet reports.",
+      "avg_salary": "₹3.8 LPA – ₹8 LPA",
+      "market_demand": "Moderate",
+      "industry_growth": "+12% (Moderate)",
+      "core_skills": ["Excel", "SQL", "Data Visualization", "Problem Solving"],
+      "secondary_skills": ["Power BI", "Communication", "Time Management", "Management"],
+      "skill_weights": {
+        "core": 1.5,
+        "important": 1.3,
+        "supporting": 1.2
+      },
+      "roadmap_reference": "mis_executive"
+    },
+    {
+      "role_name": "Account Executive",
+      "department": "Sales & Client Success",
+      "category": "Non-Technical",
+      "description": "Manages enterprise client portfolios, leads quarterly business reviews, negotiates commercial renewals, and drives upselling.",
+      "avg_salary": "₹5 LPA – ₹14 LPA",
+      "market_demand": "High",
+      "industry_growth": "+18% (High)",
+      "core_skills": ["Sales", "Customer Handling", "Communication", "Negotiation"],
+      "secondary_skills": ["Presentation", "Excel", "Time Management", "Management", "Problem Solving"],
+      "skill_weights": {
+        "core": 1.5,
+        "important": 1.3,
+        "supporting": 1.2
+      },
+      "roadmap_reference": "account_executive"
+    },
+    {
+      "role_name": "Content Writer",
+      "department": "Marketing & Media",
+      "category": "Non-Technical",
+      "description": "Researches and crafts high-converting blog posts, whitepapers, social media narratives, and technical documentation.",
+      "avg_salary": "₹3.8 LPA – ₹9 LPA",
+      "market_demand": "Moderate",
+      "industry_growth": "+13% (Moderate)",
+      "core_skills": ["Content Writing", "Communication", "Digital Marketing", "Marketing"],
+      "secondary_skills": ["Time Management", "Problem Solving", "Adaptability", "Teamwork"],
+      "skill_weights": {
+        "core": 1.5,
+        "important": 1.3,
+        "supporting": 1.2
+      },
+      "roadmap_reference": "content_writer"
+    },
+    {
+      "role_name": "Project Coordinator",
+      "department": "Project Management",
+      "category": "Non-Technical",
+      "description": "Facilitates sprint milestones, tracks resource schedules, manages team blockers, and delivers project status reports.",
+      "avg_salary": "₹4.5 LPA – ₹11 LPA",
+      "market_demand": "High",
+      "industry_growth": "+16% (High)",
+      "core_skills": ["Management", "Communication", "Time Management", "Teamwork"],
+      "secondary_skills": ["Leadership", "Excel", "Problem Solving", "Presentation", "Adaptability"],
+      "skill_weights": {
+        "core": 1.5,
+        "important": 1.3,
+        "supporting": 1.2
+      },
+      "roadmap_reference": "project_coordinator"
+    }
+  ]
+}

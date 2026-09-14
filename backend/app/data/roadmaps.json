@@ -1,0 +1,904 @@
+{
+  "roadmaps": {
+    "data_analyst": {
+      "role_name": "Data Analyst",
+      "overview": "Master SQL, spreadsheet modeling, business intelligence dashboards, and exploratory data analysis using Python.",
+      "estimated_weeks": 8,
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Data Manipulation & Querying Mastery",
+          "priority": "High",
+          "target_skills": ["SQL", "Excel"],
+          "topics": [
+            "Advanced SQL (Window Functions, CTEs, Joins, Aggregations)",
+            "Advanced Excel (Power Query, XLOOKUP, Nested Formulas, Pivot Tables)",
+            "Relational Database Schema Design and Normalization"
+          ],
+          "practice": "Solve 50+ LeetCode / HackerRank SQL medium queries; Build automated reconciliation sheets in Excel.",
+          "project": "E-Commerce Customer Retention & Sales Revenue SQL Pipeline",
+          "job_prep": "Data cleaning case studies, SQL whiteboard live queries, business scenario question answering."
+        },
+        {
+          "phase": 2,
+          "title": "Business Intelligence & Interactive Dashboards",
+          "priority": "High",
+          "target_skills": ["Power BI", "Tableau", "Data Visualization"],
+          "topics": [
+            "DAX Measures, Data Modeling (Star Schema), Power BI Service",
+            "Tableau Calculated Fields, Level of Detail (LOD) Expressions",
+            "Storytelling with Data & Executive KPI Dashboards"
+          ],
+          "practice": "Recreate Kaggle Superstore executive dashboard with drill-down filters and tooltips.",
+          "project": "End-to-End Telecom Churn Diagnostic & Real-time KPI Dashboard",
+          "job_prep": "Portfolio dashboard hosting on Power BI Web / Tableau Public; Dashboard walkthrough presentation pitch."
+        },
+        {
+          "phase": 3,
+          "title": "Exploratory Data Analysis with Python",
+          "priority": "Medium",
+          "target_skills": ["Python", "Pandas", "NumPy", "Statistics"],
+          "topics": [
+            "Data Wrangling with Pandas and Vectorized Ops with NumPy",
+            "Hypothesis Testing, A/B Testing, Descriptive & Inferential Statistics",
+            "Matplotlib & Seaborn Visual Exploratory Analysis"
+          ],
+          "practice": "Perform EDA on 3 public datasets (Healthcare, Financial Fraud, Retail Footfall).",
+          "project": "Product Feature A/B Testing & User Cohort Analysis in Jupyter Notebook",
+          "job_prep": "Explain statistical significance, p-values, confidence intervals in business context."
+        }
+      ]
+    },
+    "data_scientist": {
+      "role_name": "Data Scientist",
+      "overview": "From mathematical foundations and statistical modeling to machine learning algorithms and deep learning pipelines.",
+      "estimated_weeks": 12,
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Mathematical Foundations & Statistical Learning",
+          "priority": "High",
+          "target_skills": ["Python", "NumPy", "Pandas", "Statistics"],
+          "topics": [
+            "Linear Algebra, Multivariate Calculus, Probability Distributions",
+            "Feature Engineering, Handling Missing Data, Outlier Detection",
+            "Statistical Inference & Regression Modeling"
+          ],
+          "practice": "Build linear and logistic regression models from scratch using NumPy arrays.",
+          "project": "Housing Price Predictive Engine with Rigorous Feature Selection",
+          "job_prep": "Deriving loss functions, explaining bias-variance tradeoff, regularization (L1/L2)."
+        },
+        {
+          "phase": 2,
+          "title": "Supervised & Unsupervised Machine Learning",
+          "priority": "High",
+          "target_skills": ["Machine Learning", "Scikit-Learn", "SQL"],
+          "topics": [
+            "Decision Trees, Random Forests, XGBoost, LightGBM",
+            "Clustering (K-Means, DBSCAN), Dimensionality Reduction (PCA, t-SNE)",
+            "Cross-Validation, Hyperparameter Tuning (Optuna, GridSearch)"
+          ],
+          "practice": "Compete in Kaggle competitions; Benchmark 5 classification algorithms on credit card default dataset.",
+          "project": "End-to-End Credit Risk Scoring and Fraud Detection Classifier with Model Explainability (SHAP)",
+          "job_prep": "Model evaluation metrics deep-dive (ROC-AUC, Precision-Recall, F1-Score, Confusion Matrix)."
+        },
+        {
+          "phase": 3,
+          "title": "Deep Learning & Production Pipelines",
+          "priority": "Medium",
+          "target_skills": ["Deep Learning", "TensorFlow", "PyTorch"],
+          "topics": [
+            "Feedforward Neural Networks, CNNs for Vision, Transformers for NLP",
+            "Transfer Learning using HuggingFace & PyTorch Lightning",
+            "Model Serialization and Batch Inference Pipelines"
+          ],
+          "practice": "Fine-tune a DistilBERT text classification model and deploy with FastAPI.",
+          "project": "Customer Sentiment Analysis & Support Ticket Auto-Categorization System",
+          "job_prep": "System design for ML architectures, live coding ML pipeline in Python."
+        }
+      ]
+    },
+    "python_developer": {
+      "role_name": "Python Developer",
+      "overview": "Build production-grade asynchronous web APIs, robust database architectures, and cloud-ready backend microservices.",
+      "estimated_weeks": 8,
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Core & Advanced Python with Asynchronous Programming",
+          "priority": "High",
+          "target_skills": ["Python", "Git", "GitHub"],
+          "topics": [
+            "OOP, Generators, Decorators, Context Managers, Metaclasses",
+            "Asyncio, Concurrency, Multiprocessing, Event Loops",
+            "Git Branching Workflows, Pull Requests, Code Reviews"
+          ],
+          "practice": "Write 20+ algorithmic solutions with type hinting and comprehensive PyTest coverage.",
+          "project": "Concurrent Web Scraper & Background Task Worker Engine",
+          "job_prep": "Python GIL, memory management, reference counting, data structures time complexity."
+        },
+        {
+          "phase": 2,
+          "title": "High-Performance REST APIs & Database ORM",
+          "priority": "High",
+          "target_skills": ["FastAPI", "SQL"],
+          "topics": [
+            "FastAPI Dependency Injection, Pydantic V2 Schemas, OpenAPI Specs",
+            "SQLAlchemy ORM, Alembic Migrations, PostgreSQL Indexing",
+            "JWT Authentication, OAuth2, Role-Based Access Control (RBAC)"
+          ],
+          "practice": "Design RESTful CRUD APIs with rate limiting and database connection pooling.",
+          "project": "Scalable Multi-Tenant E-Commerce Inventory & Order Management API",
+          "job_prep": "REST vs GraphQL, HTTP status codes, DB indexing strategies, N+1 query problem resolution."
+        },
+        {
+          "phase": 3,
+          "title": "Containerization, DevOps & CI/CD Pipelines",
+          "priority": "Medium",
+          "target_skills": ["Docker", "Linux", "CI/CD"],
+          "topics": [
+            "Multi-stage Dockerfiles, Docker Compose multi-container services",
+            "Linux Server Administration, Nginx Reverse Proxy, Systemd",
+            "GitHub Actions CI/CD workflows for automated testing and deploy"
+          ],
+          "practice": "Containerize a FastAPI + PostgreSQL + Redis stack and automate CI test pipeline.",
+          "project": "Cloud-Deployed Microservice with Automated Testing & CI/CD Delivery",
+          "job_prep": "API system design, microservices architecture, logging and observability."
+        }
+      ]
+    },
+    "ml_engineer": {
+      "role_name": "Machine Learning Engineer",
+      "overview": "Bridge deep learning research with scalable production deployment, containerized inference, and MLOps.",
+      "estimated_weeks": 10,
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Deep Learning Architecture & Framework Mastery",
+          "priority": "High",
+          "target_skills": ["PyTorch", "TensorFlow", "Deep Learning", "NumPy"],
+          "topics": [
+            "Custom Neural Network Layers, Autograd Engine, Custom Loss Functions",
+            "Computer Vision (ResNet, YOLO, Vision Transformers) & NLP (BERT, GPT)",
+            "Distributed Training, Mixed Precision (FP16), GPU Optimization (CUDA)"
+          ],
+          "practice": "Train custom PyTorch image segmentation model with data augmentation pipelines.",
+          "project": "Real-time Defect Detection in Manufacturing Imagery using PyTorch",
+          "job_prep": "Neural network optimization algorithms (AdamW, SGD with Momentum), gradient vanishing/exploding."
+        },
+        {
+          "phase": 2,
+          "title": "Production ML Serving & API Deployment",
+          "priority": "High",
+          "target_skills": ["Machine Learning", "Scikit-Learn", "Docker"],
+          "topics": [
+            "ONNX Runtime, TensorRT, TorchScript model quantization and optimization",
+            "FastAPI / Triton Inference Server for Low-Latency Serving",
+            "Docker containerization for GPU-accelerated model inference"
+          ],
+          "practice": "Optimize a heavy transformer model into ONNX format and benchmark latency reduction by 4x.",
+          "project": "Low-Latency Real-Time Audio Transcription & Semantic Search Microservice",
+          "job_prep": "Serving architectures, batching requests, monitoring model drift and latency SLAs."
+        },
+        {
+          "phase": 3,
+          "title": "MLOps, Versioning & End-to-End Orchestration",
+          "priority": "Medium",
+          "target_skills": ["Git", "GitHub", "SQL"],
+          "topics": [
+            "Data & Model Versioning (DVC, MLflow / Weights & Biases)",
+            "Automated Model Training Pipelines & Continuous Training",
+            "Data validation with Great Expectations"
+          ],
+          "practice": "Setup MLflow experiment tracking and automated model registry in a CI/CD pipeline.",
+          "project": "Automated Continual Learning & Retraining Pipeline for Dynamic Financial Time Series",
+          "job_prep": "System design for recommendation systems, feature stores, end-to-end MLOps interview rounds."
+        }
+      ]
+    },
+    "fullstack_developer": {
+      "role_name": "Full Stack Web Developer",
+      "overview": "Master responsive modern frontends, robust scalable server backends, databases, and full web application lifecycle.",
+      "estimated_weeks": 10,
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Modern Frontend Architecture & State Management",
+          "priority": "High",
+          "target_skills": ["JavaScript", "React", "HTML", "CSS", "TypeScript"],
+          "topics": [
+            "Modern JavaScript (ES6+), DOM Manipulation, Event Loop",
+            "React 18 Hooks, Custom Hooks, Context API, Performance Profiling",
+            "Tailwind CSS, Responsive Design, Accessible UI Components",
+            "TypeScript Generics, Type Safety, Strict Mode"
+          ],
+          "practice": "Build 5 interactive UI widgets (Virtual Data Table, Modal Systems, Drag-and-Drop Kanban).",
+          "project": "Responsive Collaboration Dashboard with Dark Mode and Dynamic Charts",
+          "job_prep": "React reconciliation algorithm, virtual DOM, closures, async event handling, CSS layouts."
+        },
+        {
+          "phase": 2,
+          "title": "Backend Engineering & API Design",
+          "priority": "High",
+          "target_skills": ["Node.js", "SQL", "MongoDB", "FastAPI"],
+          "topics": [
+            "Node.js / Express or Python FastAPI RESTful API architecture",
+            "Relational (PostgreSQL) vs NoSQL (MongoDB) Database Design",
+            "Authentication (JWT, Session Cookies, OAuth), Middleware, Rate Limiting"
+          ],
+          "practice": "Create an end-to-end CRUD service with relational joins and data validation.",
+          "project": "Full Stack SaaS Project Management Application with Role-Based Permissions",
+          "job_prep": "Web security fundamentals (CORS, CSRF, XSS, SQL Injection), API performance optimization."
+        },
+        {
+          "phase": 3,
+          "title": "Testing, Deployment & DevOps Basics",
+          "priority": "Medium",
+          "target_skills": ["Git", "GitHub"],
+          "topics": [
+            "Unit Testing (Jest/Vitest, PyTest) and E2E Testing (Playwright)",
+            "Git Branching, Pull Requests, Merge Strategies",
+            "Vercel / Netlify / Render cloud deployments & CI/CD"
+          ],
+          "practice": "Write unit tests for authentication services and setup automated PR testing in GitHub Actions.",
+          "project": "Production-Ready Full Stack Portal Deployed to Cloud with CI/CD Automation",
+          "job_prep": "Full stack architecture defense, live code refactoring, system scalability concepts."
+        }
+      ]
+    },
+    "devops_cloud": {
+      "role_name": "DevOps & Cloud Engineer",
+      "overview": "Master infrastructure automation, cloud platforms, container orchestration, and continuous delivery pipelines.",
+      "estimated_weeks": 10,
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Linux Systems, Shell Scripting & Version Control",
+          "priority": "High",
+          "target_skills": ["Linux", "Git", "GitHub"],
+          "topics": [
+            "Linux System Internals, Networking (TCP/IP, DNS, SSH, IPTables)",
+            "Bash Scripting & Automation Utilities (cron, grep, sed, awk)",
+            "Advanced Git Branching, Tagging, and Repository Governance"
+          ],
+          "practice": "Write automation scripts for automated backup, log rotation, and server health alerts.",
+          "project": "Automated Linux Server Hardening & Monitoring Bash Suite",
+          "job_prep": "Linux troubleshooting commands, networking diagnostics, permissions & security."
+        },
+        {
+          "phase": 2,
+          "title": "Containerization & Cloud Infrastructure",
+          "priority": "High",
+          "target_skills": ["Docker", "AWS", "Azure"],
+          "topics": [
+            "Docker Optimization, Multi-Stage Builds, Security Scanning",
+            "AWS Core Services: VPC, EC2, S3, IAM, RDS, CloudWatch, ALB",
+            "Infrastructure as Code (Terraform) basics"
+          ],
+          "practice": "Deploy a multi-tier web application inside a secure custom AWS VPC.",
+          "project": "Production Multi-Tier Cloud Infrastructure on AWS with Automated Provisioning",
+          "job_prep": "Cloud architecture design, high availability, disaster recovery, cost optimization."
+        },
+        {
+          "phase": 3,
+          "title": "CI/CD Automation & Observability",
+          "priority": "Medium",
+          "target_skills": ["CI/CD", "Python"],
+          "topics": [
+            "GitHub Actions / GitLab CI Pipeline Design and Security",
+            "Monitoring and Logging (Prometheus, Grafana, ELK Stack)",
+            "Zero-Downtime Deployment Strategies (Blue-Green, Canary)"
+          ],
+          "practice": "Build a CI/CD pipeline that automatically builds, tests, containerizes, and deploys to cloud.",
+          "project": "End-to-End GitOps Continuous Delivery Pipeline with Prometheus Alerting",
+          "job_prep": "DevOps culture, site reliability engineering principles, incident management simulation."
+        }
+      ]
+    },
+    "hr_executive": {
+      "role_name": "HR Executive",
+      "overview": "Master talent acquisition, HR compliance, employee relations, payroll workflows, and organizational development.",
+      "estimated_weeks": 6,
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Talent Sourcing & Recruitment Lifecycle",
+          "priority": "High",
+          "target_skills": ["Recruitment", "Communication"],
+          "topics": [
+            "Job Description Drafting & Sourcing on LinkedIn / Job Portals",
+            "Candidate Screening, Competency-Based Interview Techniques",
+            "Offer Negotiation, Background Verification & Onboarding"
+          ],
+          "practice": "Create standardized rubrics for 5 technical and non-technical job roles.",
+          "project": "End-to-End Talent Acquisition Playbook & Candidate Onboarding Tracker",
+          "job_prep": "Behavioral interview simulation, resolving candidate objections, salary negotiation strategies."
+        },
+        {
+          "phase": 2,
+          "title": "HR Operations, Compliance & Analytics",
+          "priority": "High",
+          "target_skills": ["Management", "Excel"],
+          "topics": [
+            "Labor Laws, Statutory Compliances (PF, ESI, Gratuity, POSH)",
+            "HR Metrics & Reporting: Attrition Rate, Time-to-Hire, Cost-per-Hire",
+            "Performance Appraisal Frameworks (OKRs, 360-Degree Feedback)"
+          ],
+          "practice": "Build an HR dashboard in Excel tracking employee turnover and recruitment funnels.",
+          "project": "Organizational HR Operations & Attrition Diagnostic Spreadsheet Model",
+          "job_prep": "Conflict resolution case studies, labor law scenarios, grievance handling mechanisms."
+        }
+      ]
+    },
+    "recruiter": {
+      "role_name": "Recruiter",
+      "overview": "Master candidate sourcing, boolean search, talent pipeline management, and high-conversion recruitment outreach.",
+      "estimated_weeks": 4,
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Talent Sourcing & Boolean Search Strategies",
+          "priority": "High",
+          "target_skills": ["Recruitment", "Communication", "Time Management"],
+          "topics": [
+            "Advanced Boolean Search Operators across LinkedIn, GitHub, and Portals",
+            "Crafting High-Conversion InMail and Email Outreach Campaigns",
+            "Applicant Tracking Systems (ATS) Pipeline Management"
+          ],
+          "practice": "Source 20 qualified candidate profiles for a niche developer opening using boolean strings.",
+          "project": "Tech Talent Sourcing Campaign & ATS Funnel Optimization Plan",
+          "job_prep": "Live sourcing challenge, cold calling roleplay, candidate pitch walkthrough."
+        },
+        {
+          "phase": 2,
+          "title": "Interviewing, Negotiation & Closing",
+          "priority": "High",
+          "target_skills": ["Negotiation", "Presentation", "Excel"],
+          "topics": [
+            "Structured Screening Calls & Cultural Fit Assessment",
+            "Compensation Benchmarking and Counter-Offer Handling",
+            "Recruiter KPIs: Conversion Ratios, Pipeline Velocity"
+          ],
+          "practice": "Conduct mock closing call negotiating notice period and salary expectations.",
+          "project": "Comprehensive Hiring Pipeline Performance Report & Tracker",
+          "job_prep": "Handling difficult candidates, overcoming offer dropouts, employer branding."
+        }
+      ]
+    },
+    "sales_executive": {
+      "role_name": "Sales Executive",
+      "overview": "Master consultative selling, lead qualification, value proposition pitching, objection handling, and deal closing.",
+      "estimated_weeks": 6,
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Prospecting & Cold Outreach Mastery",
+          "priority": "High",
+          "target_skills": ["Sales", "Communication"],
+          "topics": [
+            "B2B & B2C Prospecting Methodologies (BANT, MEDDIC)",
+            "Cold Calling Scripts, Discovery Questions, Email Sequences",
+            "CRM Pipeline Hygiene and Deal Stage Progression"
+          ],
+          "practice": "Make 20 mock cold calls handling standard gatekeeper objections.",
+          "project": "Outbound Sales Prospecting Playbook & High-Converting Script Catalog",
+          "job_prep": "Live elevator pitch, handling 'I have no budget' or 'Send me an email' objections."
+        },
+        {
+          "phase": 2,
+          "title": "Pitching, Demonstration & Closing Negotiation",
+          "priority": "High",
+          "target_skills": ["Negotiation", "Presentation", "Customer Handling"],
+          "topics": [
+            "Consultative Pitching & Product Demo Structuring",
+            "Commercial Terms Negotiation, Discount Governance, Closing Tactics",
+            "Customer Relationship Nurturing and Referral Loops"
+          ],
+          "practice": "Deliver a 15-minute product pitch deck addressing specific client pain points.",
+          "project": "Enterprise Sales Presentation & Contract Negotiation Simulation",
+          "job_prep": "Live pitch presentation to panel, roleplay negotiation under price pushback."
+        }
+      ]
+    },
+    "bde": {
+      "role_name": "Business Development Executive",
+      "overview": "Master market expansion, strategic partnership building, high-value client acquisition, and growth strategy.",
+      "estimated_weeks": 6,
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Market Research & Strategic Prospecting",
+          "priority": "High",
+          "target_skills": ["Sales", "Marketing", "Communication"],
+          "topics": [
+            "Total Addressable Market (TAM) Analysis & ICP (Ideal Customer Profile) Definition",
+            "Competitor Benchmarking and Value Proposition Differentiation",
+            "Multi-Touchpoint Outbound Campaigns (Email, Social, Networking)"
+          ],
+          "practice": "Map out 30 target enterprises for a new SaaS offering with decision-maker contacts.",
+          "project": "Go-To-Market Territory Plan & Partnership Acquisition Strategy",
+          "job_prep": "Presenting market opportunity analysis, answering growth metrics questions."
+        },
+        {
+          "phase": 2,
+          "title": "Partnership Deal Structuring & Negotiation",
+          "priority": "High",
+          "target_skills": ["Negotiation", "Presentation", "Leadership"],
+          "topics": [
+            "Strategic Alliance & Channel Partnership Models",
+            "Commercial Deal Structuring, SLAs, Revenue Sharing Agreements",
+            "Executive Stakeholder Relationship Management"
+          ],
+          "practice": "Draft a partnership proposal outlining co-marketing synergies and revenue models.",
+          "project": "Strategic Partnership Proposal Deck & Revenue Forecast Model",
+          "job_prep": "Case study analysis on market entry and enterprise deal closing."
+        }
+      ]
+    },
+    "customer_support": {
+      "role_name": "Customer Support Executive",
+      "overview": "Master empathetic communication, ticket management, conflict de-escalation, and customer satisfaction metrics.",
+      "estimated_weeks": 4,
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Empathetic Support & Ticket Management",
+          "priority": "High",
+          "target_skills": ["Customer Handling", "Communication", "Problem Solving"],
+          "topics": [
+            "Customer Support Channels (Email, Live Chat, Phone, Social)",
+            "De-escalation Techniques for Frustrated Customers",
+            "Helpdesk Systems (Zendesk, Freshdesk) & SLA Tracking"
+          ],
+          "practice": "Draft 10 resolution responses to severe customer complaints with empathy and clarity.",
+          "project": "Customer Support Knowledge Base & Standard Operating Procedures (SOP) Manual",
+          "job_prep": "Roleplay handling an irate customer call, troubleshooting unfamiliar issues."
+        },
+        {
+          "phase": 2,
+          "title": "Customer Retention & Quality Assurance",
+          "priority": "High",
+          "target_skills": ["Adaptability", "Time Management", "Excel"],
+          "topics": [
+            "Key CS Metrics: CSAT, NPS, First Response Time (FRT), First Contact Resolution (FCR)",
+            "Root Cause Analysis on Product Bug Reports",
+            "Customer Feedback Loop and Product Improvement Inputs"
+          ],
+          "practice": "Analyze 100 sample support tickets in Excel to identify top 3 recurrent pain points.",
+          "project": "Customer Satisfaction Diagnostic Report & Service Improvement Strategy",
+          "job_prep": "Explaining CSAT improvement strategies, live ticketing scenario responses."
+        }
+      ]
+    },
+    "digital_marketer": {
+      "role_name": "Digital Marketing Executive",
+      "overview": "Master search engine optimization, paid performance marketing, social media acquisition, and web analytics.",
+      "estimated_weeks": 8,
+      "phases": [
+        {
+          "phase": 1,
+          "title": "SEO & Content Marketing Foundations",
+          "priority": "High",
+          "target_skills": ["Digital Marketing", "Content Writing", "Marketing"],
+          "topics": [
+            "On-Page, Off-Page, and Technical SEO Principles",
+            "Keyword Research, Competitor Analysis (Ahrefs, SEMrush, Google Search Console)",
+            "High-Converting Blog & Landing Page Copywriting"
+          ],
+          "practice": "Perform a comprehensive SEO audit for an active website and propose 15 target keywords.",
+          "project": "End-to-End Website SEO Audit & Content Strategy Blueprint",
+          "job_prep": "Explaining SEO algorithm updates, backlink strategies, CTR optimization."
+        },
+        {
+          "phase": 2,
+          "title": "Paid Advertising & Performance Marketing",
+          "priority": "High",
+          "target_skills": ["Digital Marketing", "Data Visualization", "Excel"],
+          "topics": [
+            "Google Ads (Search, Display, Performance Max) Campaign Architecture",
+            "Meta Ads (Facebook & Instagram) Funnels, Retargeting, Lookalike Audiences",
+            "Conversion Rate Optimization (CRO), A/B Testing Landing Pages",
+            "Google Analytics 4 (GA4) Tracking, UTM Parameters, ROAS Modeling"
+          ],
+          "practice": "Create a complete paid ad campaign strategy with ad copies, budgets, and audience targeting.",
+          "project": "Multi-Channel Paid Ads Growth Campaign & ROI Analytical Dashboard",
+          "job_prep": "Budget allocation case study, troubleshooting high CPC / low ROAS campaigns."
+        }
+      ]
+    },
+    "marketing_executive": {
+      "role_name": "Marketing Executive",
+      "overview": "Master brand strategy, campaign planning, market research, event marketing, and multi-channel promotions.",
+      "estimated_weeks": 6,
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Brand Strategy & Campaign Ideation",
+          "priority": "High",
+          "target_skills": ["Marketing", "Communication", "Content Writing"],
+          "topics": [
+            "Brand Positioning, Brand Voice, and Messaging Architecture",
+            "Integrated Marketing Communications (IMC) Planning",
+            "Market Segmentation, Consumer Behavior, and Focus Group Research"
+          ],
+          "practice": "Design a 360-degree launch campaign for a new consumer product.",
+          "project": "Complete Product Launch Campaign Blueprint & Creative Asset Deck",
+          "job_prep": "Pitching campaign concepts, measuring brand recall, budget planning."
+        },
+        {
+          "phase": 2,
+          "title": "Campaign Execution, Public Relations & Reporting",
+          "priority": "High",
+          "target_skills": ["Presentation", "Digital Marketing", "Excel"],
+          "topics": [
+            "Event Marketing, Sponsorships, Influencer Collaborations",
+            "PR Releases, Media Kits, and Stakeholder Presentations",
+            "Campaign ROI Measurement and Post-Mortem Analysis"
+          ],
+          "practice": "Create an executive presentation summarizing campaign performance against quarterly KPIs.",
+          "project": "Quarterly Marketing Performance & Multi-Channel ROI Presentation",
+          "job_prep": "Case studies on crisis PR management, viral marketing dynamics."
+        }
+      ]
+    },
+    "operations_executive": {
+      "role_name": "Operations Executive",
+      "overview": "Master operational workflows, supply chain basics, process streamlining, quality audits, and data-driven management.",
+      "estimated_weeks": 6,
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Process Mapping & Operations Management",
+          "priority": "High",
+          "target_skills": ["Management", "Excel", "Problem Solving"],
+          "topics": [
+            "Workflow Process Mapping (BPMN), Bottleneck Identification",
+            "Inventory Control, Vendor Management, Procurement Operations",
+            "Standard Operating Procedure (SOP) Development & Documentation"
+          ],
+          "practice": "Map out an end-to-end fulfillment process and eliminate 3 operational redundancies.",
+          "project": "Operational Process Optimization Audit & SOP Standardization Guide",
+          "job_prep": "Root cause analysis methodologies (5 Whys, Fishbone diagram), SLA management."
+        },
+        {
+          "phase": 2,
+          "title": "Quality Control & Metric Monitoring",
+          "priority": "High",
+          "target_skills": ["Time Management", "Communication", "Leadership"],
+          "topics": [
+            "Lean Management & Six Sigma Principles (DMAIC)",
+            "Operational KPI Tracking: Cycle Time, Lead Time, Defect Rate",
+            "Cross-Departmental Coordination and Resource Scheduling"
+          ],
+          "practice": "Build an Excel tracker for operational capacity planning and throughput metrics.",
+          "project": "Operations Capacity Planning Model & Quality Audit Framework",
+          "job_prep": "Handling supply disruptions, crisis management, cross-functional team coordination."
+        }
+      ]
+    },
+    "mis_executive": {
+      "role_name": "MIS Executive",
+      "overview": "Master database queries, automated spreadsheet reporting, data validation, and business information management.",
+      "estimated_weeks": 6,
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Advanced Spreadsheet & Data Governance",
+          "priority": "High",
+          "target_skills": ["Excel", "SQL"],
+          "topics": [
+            "Advanced Excel Formulas (INDEX/MATCH, XLOOKUP, Dynamic Arrays)",
+            "VBA / Macros for Report Automation",
+            "SQL Queries for Extracting Business Information from Relational DBs"
+          ],
+          "practice": "Automate a daily sales reconciliation report using Excel formulas and SQL queries.",
+          "project": "Automated Daily / Weekly Executive MIS Reporting Pipeline",
+          "job_prep": "Data integrity checks, resolving discrepancies in conflicting reports."
+        },
+        {
+          "phase": 2,
+          "title": "Data Visualization & Executive Reporting",
+          "priority": "High",
+          "target_skills": ["Data Visualization", "Power BI", "Problem Solving"],
+          "topics": [
+            "Executive Summary Dashboards and Trend Analysis",
+            "Data Validation Rules and Automated Audit Logs",
+            "Power BI Data Modeling and Scheduled Refresh Automation"
+          ],
+          "practice": "Build an interactive operational dashboard with automated alerts for metric anomalies.",
+          "project": "Executive Operational MIS Dashboard with Dynamic Filter Drill-Downs",
+          "job_prep": "Presenting complex numbers concisely to non-technical department leaders."
+        }
+      ]
+    },
+    "account_executive": {
+      "role_name": "Account Executive",
+      "overview": "Master enterprise client relationship management, account growth, contract renewals, and consultative upselling.",
+      "estimated_weeks": 6,
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Account Planning & Relationship Governance",
+          "priority": "High",
+          "target_skills": ["Customer Handling", "Sales", "Communication"],
+          "topics": [
+            "Strategic Account Mapping & Stakeholder Engagement Plans",
+            "Quarterly Business Reviews (QBRs) and Value Demonstration",
+            "Identifying Expansion & Cross-Sell Opportunities"
+          ],
+          "practice": "Structure a QBR presentation demonstrating 20% ROI improvement for a mock enterprise account.",
+          "project": "Strategic Enterprise Account Growth Plan & QBR Deck",
+          "job_prep": "Handling client churn threats, retaining high-risk accounts."
+        },
+        {
+          "phase": 2,
+          "title": "Commercial Negotiation & Renewal Strategies",
+          "priority": "High",
+          "target_skills": ["Negotiation", "Presentation", "Excel"],
+          "topics": [
+            "Contract Renewals, Multi-Year Locking, Price Escalations",
+            "Collaborating with Customer Success and Product Teams",
+            "Forecasting Account Revenue and Pipeline Velocity"
+          ],
+          "practice": "Conduct a renewal negotiation meeting handling budget reduction requests.",
+          "project": "Enterprise Contract Renewal & Expansion Strategy Playbook",
+          "job_prep": "Simulating high-stakes account escalations and executive presentations."
+        }
+      ]
+    },
+    "content_writer": {
+      "role_name": "Content Writer",
+      "overview": "Master research-driven storytelling, SEO copywriting, technical documentation, and multi-format content creation.",
+      "estimated_weeks": 4,
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Research, Tone & SEO Copywriting",
+          "priority": "High",
+          "target_skills": ["Content Writing", "Digital Marketing", "Communication"],
+          "topics": [
+            "Audience Persona Analysis & Voice Modulation (Formal, Conversational, Technical)",
+            "SEO Keyword Integration, Compelling Headlines, Hook-Story-Offer Framework",
+            "Proofreading, Editing, Grammar Perfection & Fact Checking"
+          ],
+          "practice": "Write 3 long-form 1500-word articles optimized for search intent and readability.",
+          "project": "Published Thought-Leadership Content Series with High SEO Ranking",
+          "job_prep": "Writing test under 60-minute time constraint, portfolio review walkthrough."
+        },
+        {
+          "phase": 2,
+          "title": "Multi-Channel Content Strategy & Distribution",
+          "priority": "High",
+          "target_skills": ["Marketing", "Time Management", "Problem Solving"],
+          "topics": [
+            "B2B Whitepapers, Case Studies, and Product Documentation",
+            "Social Media Copy (LinkedIn Carousels, Twitter Threads, Newsletters)",
+            "Content Repurposing Frameworks and Editorial Calendar Planning"
+          ],
+          "practice": "Repurpose a 20-page whitepaper into 5 LinkedIn posts, 1 newsletter, and 1 infographic outline.",
+          "project": "B2B SaaS Content Marketing Playbook & Multi-Channel Content Calendar",
+          "job_prep": "Defending content choices, explaining editorial workflows and research methods."
+        }
+      ]
+    },
+    "project_coordinator": {
+      "role_name": "Project Coordinator",
+      "overview": "Master project planning, sprint scheduling, risk tracking, stakeholder coordination, and agile ceremonies.",
+      "estimated_weeks": 6,
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Project Lifecycle & Agile Methodologies",
+          "priority": "High",
+          "target_skills": ["Management", "Communication", "Time Management"],
+          "topics": [
+            "Agile / Scrum Frameworks, Sprint Planning, Daily Standups, Retrospectives",
+            "Project Management Tools: Jira, Trello, Asana, Notion",
+            "Work Breakdown Structure (WBS) and Critical Path Method (CPM)"
+          ],
+          "practice": "Setup a complete Jira sprint board with epics, user stories, acceptance criteria, and story points.",
+          "project": "Complete Agile Project Charter & Sprint Execution Board",
+          "job_prep": "Facilitating scrum ceremonies, resolving team blockers, sprint velocity tracking."
+        },
+        {
+          "phase": 2,
+          "title": "Risk Management & Stakeholder Communication",
+          "priority": "High",
+          "target_skills": ["Teamwork", "Leadership", "Excel", "Presentation"],
+          "topics": [
+            "Risk Register, Mitigation Planning, Scope Creep Control",
+            "Budget Tracking, Resource Allocation Matrix (RACI Matrix)",
+            "Executive Status Reporting & Cross-Team Dependencies"
+          ],
+          "practice": "Build a project status dashboard tracking budget burn-down and milestone variance in Excel.",
+          "project": "Project Governance Plan & Executive Milestone Dashboard",
+          "job_prep": "Handling project delays, stakeholder conflict resolution, managing scope change requests."
+        }
+      ]
+    },
+    "business_analyst": {
+      "role_name": "Business Analyst",
+      "overview": "Bridge business strategy and technical systems through requirements engineering, process modeling, and data analytics.",
+      "estimated_weeks": 8,
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Requirements Engineering & Business Process Modeling",
+          "priority": "High",
+          "target_skills": ["Problem Solving", "Communication", "Management"],
+          "topics": [
+            "BRD (Business Requirements Document) & FRD (Functional Requirements Document)",
+            "User Stories, Acceptance Criteria, Gherkin Syntax (Given-When-Then)",
+            "Business Process Model and Notation (BPMN) & Flowcharting"
+          ],
+          "practice": "Write a complete BRD and 10 detailed user stories for a banking loan origination module.",
+          "project": "End-to-End Enterprise System Requirements Specification (BRD/FRD)",
+          "job_prep": "Live requirements elicitation roleplay, managing conflicting stakeholder priorities."
+        },
+        {
+          "phase": 2,
+          "title": "Data-Driven Analysis & BI Visualizations",
+          "priority": "High",
+          "target_skills": ["SQL", "Excel", "Data Visualization", "Power BI"],
+          "topics": [
+            "SQL for Business Analysts (Cohort analysis, trend discovery)",
+            "Financial Modeling and Cost-Benefit Analysis in Excel",
+            "Interactive Dashboards for Business KPI Monitoring"
+          ],
+          "practice": "Perform cost-benefit analysis for migrating legacy CRM to modern cloud platform.",
+          "project": "Business Feasibility Study & Executive KPI Visualization Model",
+          "job_prep": "System design for business analysts, feasibility analysis defense."
+        }
+      ]
+    },
+    "backend_developer": {
+      "role_name": "Backend Developer",
+      "overview": "Master server-side architectures, high-performance database schema design, asynchronous workers, and robust REST APIs.",
+      "estimated_weeks": 10,
+      "phases": [
+        {
+          "phase": 1,
+          "title": "API Architecture & Database Design",
+          "priority": "High",
+          "target_skills": ["Node.js", "Python", "SQL", "PostgreSQL"],
+          "topics": [
+            "RESTful API design conventions, status codes, query pagination",
+            "Relational Database modeling, Indexing strategies, Query optimization",
+            "ORM mapping and schema migrations (SQLAlchemy / Prisma)"
+          ],
+          "practice": "Build an authenticated multi-resource CRUD API with connection pooling and query benchmarking.",
+          "project": "Scalable RESTful Order Processing & Payment Gateway Service",
+          "job_prep": "Database transactions (ACID), isolation levels, SQL vs NoSQL architectural decisions."
+        },
+        {
+          "phase": 2,
+          "title": "Asynchronous Processing & Caching",
+          "priority": "High",
+          "target_skills": ["MongoDB", "FastAPI", "REST APIs"],
+          "topics": [
+            "In-memory caching with Redis, Rate limiting, Session management",
+            "Message queues & background workers (Celery, RabbitMQ)",
+            "Authentication security: JWT, Refresh tokens, OAuth2, RBAC"
+          ],
+          "practice": "Implement distributed caching and rate limiter middleware handling 1,000 req/sec.",
+          "project": "High-Throughput Notification & Webhook Delivery Engine",
+          "job_prep": "System design for URL shortener, real-time leaderboards, rate limiters."
+        },
+        {
+          "phase": 3,
+          "title": "Containerization, Linux & Cloud Deployment",
+          "priority": "Medium",
+          "target_skills": ["Docker", "Linux", "CI/CD", "Git"],
+          "topics": [
+            "Container multi-stage builds, Docker Compose local staging",
+            "Linux daemon administration, systemd, Nginx reverse proxy",
+            "Automated testing & deployment with GitHub Actions"
+          ],
+          "practice": "Containerize microservices architecture and deploy to AWS EC2 with automated CI/CD.",
+          "project": "Production-Ready Containerized Microservice Suite",
+          "job_prep": "Microservices resilience patterns, circuit breakers, distributed tracing."
+        }
+      ]
+    },
+    "frontend_developer": {
+      "role_name": "Frontend Developer",
+      "overview": "Master responsive modern UI architecture, state management, web performance optimization, and accessibility.",
+      "estimated_weeks": 8,
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Modern JavaScript & Semantic UI Systems",
+          "priority": "High",
+          "target_skills": ["JavaScript", "HTML5", "CSS3"],
+          "topics": [
+            "ES6+ syntax, Closures, Prototypal inheritance, Event loop & Promises",
+            "Responsive CSS Grid, Flexbox, Tailwind CSS utility architecture",
+            "Web Accessibility (WCAG 2.1, ARIA attributes, semantic markup)"
+          ],
+          "practice": "Build 5 accessible interactive UI components from scratch without external libraries.",
+          "project": "Accessible Design System Component Library with Tailwind CSS",
+          "job_prep": "CSS specificity, box model, event bubbling/capturing, reflow & repaint."
+        },
+        {
+          "phase": 2,
+          "title": "React Ecosystem & Dynamic State Management",
+          "priority": "High",
+          "target_skills": ["React", "TypeScript", "REST APIs"],
+          "topics": [
+            "React 18 Hooks (useMemo, useCallback, useRef, custom hooks)",
+            "Global State (Zustand / Redux Toolkit / React Context)",
+            "Client-side caching with TanStack Query (React Query)",
+            "TypeScript types, interfaces, generics with React props"
+          ],
+          "practice": "Build an interactive analytics dashboard with real-time filters and optimistic UI updates.",
+          "project": "Interactive SaaS Analytics & Metric Exploration Web App",
+          "job_prep": "React Fiber architecture, virtual DOM reconciliation, memorization pitfalls."
+        },
+        {
+          "phase": 3,
+          "title": "Performance Optimization & Testing",
+          "priority": "Medium",
+          "target_skills": ["Git", "GitHub", "Data Visualization"],
+          "topics": [
+            "Lighthouse optimization, Core Web Vitals (LCP, FID, CLS)",
+            "Code splitting, Lazy loading, Bundle size optimization with Vite",
+            "Unit testing with Vitest & React Testing Library"
+          ],
+          "practice": "Audit and improve Lighthouse performance score of a legacy app from 60 to 95+.",
+          "project": "High-Performance Portfolio Platform with Interactive Visualizations",
+          "job_prep": "Frontend system design (Newsfeed, Auto-complete search, Infinite scroll)."
+        }
+      ]
+    },
+    "data_engineer": {
+      "role_name": "Data Engineer",
+      "overview": "Master ETL/ELT pipelines, distributed data processing, data warehousing, and cloud data architecture.",
+      "estimated_weeks": 10,
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Relational & Analytical Database Mastery",
+          "priority": "High",
+          "target_skills": ["SQL", "PostgreSQL", "Python"],
+          "topics": [
+            "Advanced analytical SQL, window functions, partitioning, sharding",
+            "Data modeling: Dimensional modeling, Star Schema, Snowflake Schema",
+            "Database internals, index optimization, query execution plans"
+          ],
+          "practice": "Design and populate a 10M row dimensional data warehouse with optimized indexes.",
+          "project": "Automated Financial Transactions Data Warehouse & Analytical Pipeline",
+          "job_prep": "OLTP vs OLAP, Normalization vs Denormalization, Query plan optimization."
+        },
+        {
+          "phase": 2,
+          "title": "ETL Pipelines & Workflow Orchestration",
+          "priority": "High",
+          "target_skills": ["Pandas", "Docker", "AWS"],
+          "topics": [
+            "Building automated ETL pipelines in Python with error handling",
+            "Workflow orchestration with Apache Airflow / Prefect",
+            "Cloud data storage (AWS S3, Redshift / BigQuery)"
+          ],
+          "practice": "Build an Airflow DAG that ingests public API data daily into cloud storage and database.",
+          "project": "End-to-End Orchestrated ETL Pipeline with Automated Schema Validation",
+          "job_prep": "Data quality monitoring, handling late arriving data, idempotency in pipelines."
+        },
+        {
+          "phase": 3,
+          "title": "Data Lakes, NoSQL & CI/CD Delivery",
+          "priority": "Medium",
+          "target_skills": ["MongoDB", "Linux", "CI/CD", "Git"],
+          "topics": [
+            "Document and Key-Value stores for unstructured data",
+            "Data lake architectures (Parquet, Delta Lake)",
+            "Automated data pipeline testing and CI/CD deployment"
+          ],
+          "practice": "Transform raw JSON log streams into partitioned Parquet files for query engines.",
+          "project": "Cloud Data Lake Analytics Infrastructure with Automated CI/CD",
+          "job_prep": "Data engineering system design (Clickstream pipeline, metric computation engine)."
+        }
+      ]
+    }
+  }
+}
+
