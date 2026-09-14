@@ -31,6 +31,44 @@ Higher education curricula frequently lag behind rapid technological advancement
 
 ---
 
+## 📸 Project Output / Screenshots
+
+### 1. Landing Page & Hero Overview
+![Home Page](screenshots/home.png)
+*Modern hero interface showcasing core value pillars, architecture flow, and 1-click test profiles for judges.*
+
+---
+
+### 2. Multi-Format Resume Analyzer
+![Resume Analyzer](screenshots/resume-analyzer.png)
+*Interactive drag-and-drop resume parser supporting PDF, DOCX, and TXT formats alongside quick text paste.*
+
+---
+
+### 3. Industry Readiness Dashboard & Gap Matrix
+![Readiness Dashboard](screenshots/readiness-dashboard.png)
+*Deterministic circular readiness score gauge, matched skills, priority missing skills, and dynamic target switcher.*
+
+---
+
+### 4. Comprehensive Job Roles Matrix
+![Job Roles](screenshots/job-roles.png)
+*Searchable catalog across 19+ tech and non-tech roles highlighting core and secondary industry competency requirements.*
+
+---
+
+### 5. Milestone-Based Learning Roadmap
+![Learning Roadmap](screenshots/learning-roadmap.png)
+*Personalized, phase-by-phase learning pathways dynamically customized to bridge the student's exact missing skills.*
+
+---
+
+### 6. Candidate Profile & Portfolio Enhancements
+![Student Profile](screenshots/student-profile.png)
+*Structured profile summary with extracted links, quantifiable project metrics, and resume optimization guidelines.*
+
+---
+
 ## 🏗️ 3. Technical Architecture & Tech Stack
 
 ```
